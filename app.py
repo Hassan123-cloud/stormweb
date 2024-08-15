@@ -1,6 +1,6 @@
 from flask import Flask, render_template, jsonify, request
 
-import SQLHelper
+
 
 
 app = Flask(__name__)
