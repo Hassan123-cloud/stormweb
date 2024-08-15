@@ -5,6 +5,7 @@ from sqlHelper import SQLHelper
 
 
 app = Flask(__name__)
+server = app.server
 sql = SQLHelper()
 
 @app.route('/')
